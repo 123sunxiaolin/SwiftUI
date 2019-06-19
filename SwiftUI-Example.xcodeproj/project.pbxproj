@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD40CE1622BA6EB500377651 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1522BA6EB500377651 /* WebViewPage.swift */; };
+		DD40CE1822BA77ED00377651 /* ControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1722BA77ED00377651 /* ControllerPage.swift */; };
+		DD40CE1A22BA7A6100377651 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1922BA7A6100377651 /* TestViewController.swift */; };
+		DD40CE1C22BA7DF300377651 /* TextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1B22BA7DF300377651 /* TextPage.swift */; };
+		DD40CE1E22BA820600377651 /* TextFieldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1D22BA820600377651 /* TextFieldPage.swift */; };
 		DDE86D4A22B9CD5100B902DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D4922B9CD5100B902DF /* AppDelegate.swift */; };
 		DDE86D4C22B9CD5100B902DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D4B22B9CD5100B902DF /* SceneDelegate.swift */; };
 		DDE86D4E22B9CD5100B902DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D4D22B9CD5100B902DF /* ContentView.swift */; };
@@ -15,6 +20,7 @@
 		DDE86D5622B9CD5200B902DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE86D5422B9CD5200B902DF /* LaunchScreen.storyboard */; };
 		DDE86D6122B9CD5200B902DF /* SwiftUI_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D6022B9CD5200B902DF /* SwiftUI_ExampleTests.swift */; };
 		DDE86D6C22B9CD5300B902DF /* SwiftUI_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D6B22B9CD5300B902DF /* SwiftUI_ExampleUITests.swift */; };
+		DDE86D7B22B9E7A300B902DF /* RowPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D7A22B9E7A300B902DF /* RowPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD40CE1522BA6EB500377651 /* WebViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
+		DD40CE1722BA77ED00377651 /* ControllerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerPage.swift; sourceTree = "<group>"; };
+		DD40CE1922BA7A6100377651 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		DD40CE1B22BA7DF300377651 /* TextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPage.swift; sourceTree = "<group>"; };
+		DD40CE1D22BA820600377651 /* TextFieldPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPage.swift; sourceTree = "<group>"; };
 		DDE86D4622B9CD5100B902DF /* SwiftUI-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE86D4922B9CD5100B902DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE86D4B22B9CD5100B902DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		DDE86D6722B9CD5300B902DF /* SwiftUI-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE86D6B22B9CD5300B902DF /* SwiftUI_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExampleUITests.swift; sourceTree = "<group>"; };
 		DDE86D6D22B9CD5300B902DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE86D7A22B9E7A300B902DF /* RowPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,8 @@
 				DDE86D4922B9CD5100B902DF /* AppDelegate.swift */,
 				DDE86D4B22B9CD5100B902DF /* SceneDelegate.swift */,
 				DDE86D4D22B9CD5100B902DF /* ContentView.swift */,
+				DDE86D7A22B9E7A300B902DF /* RowPage.swift */,
+				DDE86D7922B9E70B00B902DF /* Pages */,
 				DDE86D4F22B9CD5200B902DF /* Assets.xcassets */,
 				DDE86D5422B9CD5200B902DF /* LaunchScreen.storyboard */,
 				DDE86D5722B9CD5200B902DF /* Info.plist */,
@@ -134,6 +148,18 @@
 				DDE86D6D22B9CD5300B902DF /* Info.plist */,
 			);
 			path = "SwiftUI-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		DDE86D7922B9E70B00B902DF /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				DD40CE1522BA6EB500377651 /* WebViewPage.swift */,
+				DD40CE1722BA77ED00377651 /* ControllerPage.swift */,
+				DD40CE1922BA7A6100377651 /* TestViewController.swift */,
+				DD40CE1B22BA7DF300377651 /* TextPage.swift */,
+				DD40CE1D22BA820600377651 /* TextFieldPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD40CE1A22BA7A6100377651 /* TestViewController.swift in Sources */,
+				DD40CE1822BA77ED00377651 /* ControllerPage.swift in Sources */,
 				DDE86D4A22B9CD5100B902DF /* AppDelegate.swift in Sources */,
+				DD40CE1E22BA820600377651 /* TextFieldPage.swift in Sources */,
+				DD40CE1C22BA7DF300377651 /* TextPage.swift in Sources */,
+				DDE86D7B22B9E7A300B902DF /* RowPage.swift in Sources */,
 				DDE86D4C22B9CD5100B902DF /* SceneDelegate.swift in Sources */,
+				DD40CE1622BA6EB500377651 /* WebViewPage.swift in Sources */,
 				DDE86D4E22B9CD5100B902DF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
