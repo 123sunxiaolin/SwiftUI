@@ -15,6 +15,8 @@
 		DD40CE1A22BA7A6100377651 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1922BA7A6100377651 /* TestViewController.swift */; };
 		DD40CE1C22BA7DF300377651 /* TextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1B22BA7DF300377651 /* TextPage.swift */; };
 		DD40CE1E22BA820600377651 /* TextFieldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1D22BA820600377651 /* TextFieldPage.swift */; };
+		DDC36E8D22BBBAE200AA0D88 /* PickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC36E8C22BBBAE200AA0D88 /* PickerPage.swift */; };
+		DDC36E8F22BBCABC00AA0D88 /* DatePickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC36E8E22BBCABC00AA0D88 /* DatePickerPage.swift */; };
 		DDE86D4A22B9CD5100B902DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D4922B9CD5100B902DF /* AppDelegate.swift */; };
 		DDE86D4C22B9CD5100B902DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D4B22B9CD5100B902DF /* SceneDelegate.swift */; };
 		DDE86D4E22B9CD5100B902DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE86D4D22B9CD5100B902DF /* ContentView.swift */; };
@@ -52,6 +54,8 @@
 		DD40CE1922BA7A6100377651 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		DD40CE1B22BA7DF300377651 /* TextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPage.swift; sourceTree = "<group>"; };
 		DD40CE1D22BA820600377651 /* TextFieldPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPage.swift; sourceTree = "<group>"; };
+		DDC36E8C22BBBAE200AA0D88 /* PickerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPage.swift; sourceTree = "<group>"; };
+		DDC36E8E22BBCABC00AA0D88 /* DatePickerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPage.swift; sourceTree = "<group>"; };
 		DDE86D4622B9CD5100B902DF /* SwiftUI-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE86D4922B9CD5100B902DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE86D4B22B9CD5100B902DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				DD10963D22BB2710004BB070 /* WebImagePage.swift */,
 				DD10963F22BB2D73004BB070 /* ButtonPage.swift */,
 				DD10964122BB34A2004BB070 /* EditPage.swift */,
+				DDC36E8C22BBBAE200AA0D88 /* PickerPage.swift */,
+				DDC36E8E22BBCABC00AA0D88 /* DatePickerPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -306,11 +312,13 @@
 				DD40CE1A22BA7A6100377651 /* TestViewController.swift in Sources */,
 				DD40CE1822BA77ED00377651 /* ControllerPage.swift in Sources */,
 				DD10964022BB2D73004BB070 /* ButtonPage.swift in Sources */,
+				DDC36E8D22BBBAE200AA0D88 /* PickerPage.swift in Sources */,
 				DDE86D4A22B9CD5100B902DF /* AppDelegate.swift in Sources */,
 				DD40CE1E22BA820600377651 /* TextFieldPage.swift in Sources */,
 				DD40CE1C22BA7DF300377651 /* TextPage.swift in Sources */,
 				DDE86D7B22B9E7A300B902DF /* RowPage.swift in Sources */,
 				DDE86D4C22B9CD5100B902DF /* SceneDelegate.swift in Sources */,
+				DDC36E8F22BBCABC00AA0D88 /* DatePickerPage.swift in Sources */,
 				DD10963E22BB2710004BB070 /* WebImagePage.swift in Sources */,
 				DD40CE1622BA6EB500377651 /* WebViewPage.swift in Sources */,
 				DDE86D4E22B9CD5100B902DF /* ContentView.swift in Sources */,

@@ -50,6 +50,16 @@ struct ContentView : View {
                     }
                 }
                 
+                Section(header: Text("选择器")) {
+                    NavigationButton(destination: PickerPage()) {
+                        RowPage("Picker", subTitle: "选择器")
+                    }
+                    
+                    NavigationButton(destination: DatePickerPage()) {
+                        RowPage("DatePicker", subTitle: "日期选择器")
+                    }
+                }
+                
                 }
                 .listStyle(.grouped)
                 .navigationBarTitle(Text("Example"), displayMode: .large)
