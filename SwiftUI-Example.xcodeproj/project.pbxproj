@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD10963E22BB2710004BB070 /* WebImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10963D22BB2710004BB070 /* WebImagePage.swift */; };
+		DD10964022BB2D73004BB070 /* ButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10963F22BB2D73004BB070 /* ButtonPage.swift */; };
+		DD10964222BB34A2004BB070 /* EditPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10964122BB34A2004BB070 /* EditPage.swift */; };
 		DD40CE1622BA6EB500377651 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1522BA6EB500377651 /* WebViewPage.swift */; };
 		DD40CE1822BA77ED00377651 /* ControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1722BA77ED00377651 /* ControllerPage.swift */; };
 		DD40CE1A22BA7A6100377651 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40CE1922BA7A6100377651 /* TestViewController.swift */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD10963D22BB2710004BB070 /* WebImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImagePage.swift; sourceTree = "<group>"; };
+		DD10963F22BB2D73004BB070 /* ButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPage.swift; sourceTree = "<group>"; };
+		DD10964122BB34A2004BB070 /* EditPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPage.swift; sourceTree = "<group>"; };
 		DD40CE1522BA6EB500377651 /* WebViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
 		DD40CE1722BA77ED00377651 /* ControllerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerPage.swift; sourceTree = "<group>"; };
 		DD40CE1922BA7A6100377651 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +164,9 @@
 				DD40CE1922BA7A6100377651 /* TestViewController.swift */,
 				DD40CE1B22BA7DF300377651 /* TextPage.swift */,
 				DD40CE1D22BA820600377651 /* TextFieldPage.swift */,
+				DD10963D22BB2710004BB070 /* WebImagePage.swift */,
+				DD10963F22BB2D73004BB070 /* ButtonPage.swift */,
+				DD10964122BB34A2004BB070 /* EditPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -293,13 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD10964222BB34A2004BB070 /* EditPage.swift in Sources */,
 				DD40CE1A22BA7A6100377651 /* TestViewController.swift in Sources */,
 				DD40CE1822BA77ED00377651 /* ControllerPage.swift in Sources */,
+				DD10964022BB2D73004BB070 /* ButtonPage.swift in Sources */,
 				DDE86D4A22B9CD5100B902DF /* AppDelegate.swift in Sources */,
 				DD40CE1E22BA820600377651 /* TextFieldPage.swift in Sources */,
 				DD40CE1C22BA7DF300377651 /* TextPage.swift in Sources */,
 				DDE86D7B22B9E7A300B902DF /* RowPage.swift in Sources */,
 				DDE86D4C22B9CD5100B902DF /* SceneDelegate.swift in Sources */,
+				DD10963E22BB2710004BB070 /* WebImagePage.swift in Sources */,
 				DD40CE1622BA6EB500377651 /* WebViewPage.swift in Sources */,
 				DDE86D4E22B9CD5100B902DF /* ContentView.swift in Sources */,
 			);

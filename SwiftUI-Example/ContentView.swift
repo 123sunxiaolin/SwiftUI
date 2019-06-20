@@ -30,6 +30,24 @@ struct ContentView : View {
                     NavigationButton(destination: TextFieldPage()) {
                         RowPage("TextField", subTitle: "显示可编辑文本界面的输入控件")
                     }
+                    
+                    NavigationButton(destination: WebImagePage()) {
+                        RowPage("WebImage", subTitle: "显示网络图片")
+                    }
+                }
+                
+                Section(header: Text("按钮")) {
+                    NavigationButton(destination: ButtonPage()) {
+                        RowPage("Button", subTitle: "普通按钮的点击事件")
+                    }
+                    
+                    PresentationButton(RowPage("PresentationButton", subTitle: ""), destination: Text("show presentation button")) {
+                        print("Present!!")
+                    }
+                    
+                    NavigationButton(destination: EditPage()) {
+                        RowPage("EditButton", subTitle: "列表的编辑模式")
+                    }
                 }
                 
                 }
